@@ -462,7 +462,7 @@ body {
 \*-----------------------------------*/
 
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -507,7 +507,7 @@ body {
   position: absolute;
   top: 85%;
   right: 16px;
-  background-color: var(--neutral-100);
+  background-color: blue;
   min-width: 260px;
   padding: 10px;
   border-radius: var(--radius-large);

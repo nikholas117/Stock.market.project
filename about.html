@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .header {
+        box-shadow: var(--shadow-1);
+      }
+      body {
+        background-color: #407cdd;
+      }
+      /* About Section Styles */
+      .about {
+        padding: 180px 0 60px;
+      }
+
+      .about .container {
+        max-width: 1200px;
+      }
+
+      .about .title-wrapper {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .about .section-title {
+        font-size: 4rem;
+        color: var(--neutral-10);
+        margin-bottom: 10px;
+      }
+
+      .about .section-text {
+        font-size: 2rem;
+        color: var(--neutral-20);
+      }
+
+      .about-content {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .about-content p {
+        font-size: 1.5rem;
+        color: var(--neutral-10);
+        margin-bottom: 20px;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" width="190" height="28" alt="wealthome" />
+        </a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="index.html" class="navbar-link label-medium">Home</a>
+            </li>
+            <li>
+              <a href="rent.html" class="navbar-link label-medium">Rent</a>
+            </li>
+            <li>
+              <a href="sell.html" class="navbar-link label-medium">Sell</a>
+            </li>
+            <li>
+              <a href="buy.html" class="navbar-link label-medium">Buy</a>
+            </li>
+            <li>
+              <a href="about.html" class="navbar-link label-medium active"
+                >About</a
+              >
+            </li>
+          </ul>
+          <div class="navbar-wrapper">
+            <a href="#" class="btn-link label-medium">Login</a>
+            <a href="#" class="btn btn-fill label-medium">Get Started</a>
+          </div>
+        </nav>
+        <button
+          class="nav-toggle-btn icon-btn"
+          aria-label="toggle navbar"
+          data-nav-toggler
+        >
+          <span class="material-symbols-rounded open" aria-hidden="true"
+            >menu</span
+          >
+          <span class="material-symbols-rounded close" aria-hidden="true"
+            >close</span
+          >
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- About Section -->
+      <section class="section about" aria-labelledby="about-label">
+        <div class="container">
+          <div class="title-wrapper">
+            <div>
+              <h2 class="section-title headline-small">About Us</h2>
+              <p class="section-text body-large">
+                Learn more about our mission and team.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <p class="body-large">
+              We are a leading real estate platform dedicated to helping you
+              find the perfect home. Whether you're looking to rent, buy, or
+              sell, our team is here to guide you every step of the way.
+            </p>
+            <p class="body-large">
+              Our mission is to make the process of finding and securing a home
+              as seamless and stress-free as possible. With years of experience
+              and a commitment to excellence, we are your trusted partner in
+              real estate.
+            </p>
+            <p class="body-large">
+              We believe in transparency, integrity, and putting our clients
+              first. Let us help you find a place where you can truly be
+              yourself.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="dist/index.js"></script>
+  </body>
+</html>
